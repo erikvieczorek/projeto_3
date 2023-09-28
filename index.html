@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sniglet&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <img src="images/Abelha Roxa sem fundo.png" alt="Logo abelha roxa">
+            <h1 class="ms-3 section-title">Abelha <span class="text-colored2">Roxa</span></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a abelha roxa
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#usos" class="nav-link">                            
+                            <i class="bi bi-stars me-1"></i>
+                            Utilização
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide"  data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide (1).jpg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide (2).jpg"  alt="Duas taças de Vela Curativa">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide (3).jpg"  alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3">
+                            <img src="images/Abelha Roxa.jpeg" class="d-block w-100 rounded" alt="Foto de um produto">
+                        </div>
+                        <div class="col-md-9 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a Abelha Roxa</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis placeat illo, esse est sapiente atque odio. Eveniet, necessitatibus enim fuga officia, est unde modi aliquam ut ducimus fugit voluptatibus maiores.
+                            </p>
+                            <h3 class="section-title mt-5">Sobre <span class="text-colored">aromaterapia</span></h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque nesciunt qui modi ducimus rerum laboriosam fugit enim animi, porro, deleniti velit dolorum odit expedita optio consectetur ad! Et, ipsa?
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="usos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Onde <span class="text-colored">utilizar</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/valores/woman-567021_640.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-clipboard2-pulse-fill "></i>
+                            Massagem
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum ducimus autem maxime repellendus eligendi quo dolore minima labore, magnam vitae nesciunt ipsa animi doloribus culpa unde earum inventore officiis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/valores/Kindness Reminder — Instagram Post.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Aromaterapia para pets
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum ducimus autem maxime repellendus eligendi quo dolore minima labore, magnam vitae nesciunt ipsa animi doloribus culpa unde earum inventore officiis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/valores/Óleos essenciais para.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-yin-yang"></i>
+                            Meditação
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum ducimus autem maxime repellendus eligendi quo dolore minima labore, magnam vitae nesciunt ipsa animi doloribus culpa unde earum inventore officiis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#difusores" class="fw-bold text-start nav-link text-colored active">Difusores</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#velas-aromaticas" class="fw-bold text-start nav-link text-colored">Velas aromáticas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#agua-lencol" class="fw-bold text-start nav-link text-colored">Água para lencóis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oleos" class="fw-bold text-start nav-link text-colored">Óleos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#kits" class="fw-bold text-start nav-link text-colored">Kits</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="difusores">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/difusor (1).jpg" alt="Difusor 1">
+                                        <h5 class="text-colored fw-bold">Difusor 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/difusor (2).jpg" alt="Difusor 2">
+                                        <h5 class="text-colored fw-bold">Difusor 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/difusor (1).jpg" alt="Difusor 1">
+                                        <h5 class="text-colored fw-bold">Difusor 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/difusor (2).jpg" alt="Difusor 2">
+                                        <h5 class="text-colored fw-bold">Difusor 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/difusor (1).jpg" alt="Difusor 1">
+                                        <h5 class="text-colored fw-bold">Difusor 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/difusor (2).jpg" alt="Difusor 2">
+                                        <h5 class="text-colored fw-bold">Difusor 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/difusor (1).jpg" alt="Difusor 1">
+                                        <h5 class="text-colored fw-bold">Difusor 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/difusor (2).jpg" alt="Difusor 2">
+                                        <h5 class="text-colored fw-bold">Difusor 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="velas-aromaticas">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/vela (1).jpg" alt="Velas Aromáticas">
+                                        <h5 class="text-colored fw-bold">Velas Aromáticas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/vela (2).jpg" alt="Vela Curativa">
+                                        <h5 class="text-colored fw-bold">Vela Curativa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/vela (1).jpg" alt="Velas Aromáticas">
+                                        <h5 class="text-colored fw-bold">Velas Aromáticas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/vela (2).jpg" alt="Vela Curativa">
+                                        <h5 class="text-colored fw-bold">Vela Curativa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/vela (1).jpg" alt="Velas Aromáticas">
+                                        <h5 class="text-colored fw-bold">Velas Aromáticas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/vela (2).jpg" alt="Vela Curativa">
+                                        <h5 class="text-colored fw-bold">Vela Curativa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/vela (1).jpg" alt="Velas Aromáticas">
+                                        <h5 class="text-colored fw-bold">Velas Aromáticas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/vela (2).jpg" alt="Vela Curativa">
+                                        <h5 class="text-colored fw-bold">Vela Curativa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="agua-lencol">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (1).jpg" alt="Tranquilidade">
+                                        <h5 class="text-colored fw-bold">Tranquilidade</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (2).jpg" alt="Bons sonhos">
+                                        <h5 class="text-colored fw-bold">Bons Sonhos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (3).jpg" alt="Afrodisíaco">
+                                        <h5 class="text-colored fw-bold">Afrodisíaco</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (1).jpg" alt="Tranquilidade">
+                                        <h5 class="text-colored fw-bold">Tranquilidade</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (2).jpg" alt="Bons sonhos">
+                                        <h5 class="text-colored fw-bold">Bons Sonhos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (3).jpg" alt="Afrodisíaco">
+                                        <h5 class="text-colored fw-bold">Afrodisíaco</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (1).jpg" alt="Tranquilidade">
+                                        <h5 class="text-colored fw-bold">Tranquilidade</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (2).jpg" alt="Bons sonhos">
+                                        <h5 class="text-colored fw-bold">Bons Sonhos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/agua_lencol (3).jpg" alt="Afrodisíaco">
+                                        <h5 class="text-colored fw-bold">Afrodisíaco</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="oleos">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/oleos (1).jpg" alt="Oléo essencial 1">
+                                        <h5 class="text-colored fw-bold">Oléo essencial 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/oleos (2).jpg" alt="Oléo essencial 2">
+                                        <h5 class="text-colored fw-bold">Oléo essencial 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/oleos (1).jpg" alt="Oléo essencial 1">
+                                        <h5 class="text-colored fw-bold">Oléo essencial 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/oleos (2).jpg" alt="Oléo essencial 2">
+                                        <h5 class="text-colored fw-bold">Oléo essencial 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/oleos (1).jpg" alt="Oléo essencial 1">
+                                        <h5 class="text-colored fw-bold">Oléo essencial 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/oleos (2).jpg" alt="Oléo essencial 2">
+                                        <h5 class="text-colored fw-bold">Oléo essencial 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/oleos (1).jpg" alt="Oléo essencial 1">
+                                        <h5 class="text-colored fw-bold">Oléo essencial 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/oleos (2).jpg" alt="Oléo essencial 2">
+                                        <h5 class="text-colored fw-bold">Oléo essencial 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="kits">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (1).jpg" alt="Kit 1">
+                                        <h5 class="text-colored fw-bold">Kit 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (2).jpg" alt="Kit 2">
+                                        <h5 class="text-colored fw-bold">Kit 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (3).jpg" alt="Kit 3">
+                                        <h5 class="text-colored fw-bold">Kit 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (1).jpg" alt="Kit 1">
+                                        <h5 class="text-colored fw-bold">Kit 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (2).jpg" alt="Kit 2">
+                                        <h5 class="text-colored fw-bold">Kit 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (3).jpg" alt="Kit 3">
+                                        <h5 class="text-colored fw-bold">Kit 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>    
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (1).jpg" alt="Kit 1">
+                                        <h5 class="text-colored fw-bold">Kit 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (2).jpg" alt="Kit 2">
+                                        <h5 class="text-colored fw-bold">Kit 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3">
+                                        <img class="d-block w-100 mt-2" src="images/produtos/kits (3).jpg" alt="Kit 3">
+                                        <h5 class="text-colored fw-bold">Kit 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links mt-1">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-5 mb-1">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rodovia RS-446 -  Carlos Barbosa - RS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.js"></script>
+    <script src="./js/messages_pt_PT.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
